@@ -7,7 +7,7 @@ Please check our paper [here](https://arxiv.org/abs/2502.08514).
 ## Madisse
 Our debate approach for summary faithfulness evaluation consisting of a group of agnets with initial imposed beleifs of faithfulness which would engage in discussions to resolve any inconsistencies.
 
-## Ambiguity annotation on MeetingBank
+## Ambiguity annotation on MeetingBank 
 
  `MeetingBank_ambiguity_annotated.json` contains the ambiguity annotations for MeetingBank summaries. The followings are descriptions of column names.
 
