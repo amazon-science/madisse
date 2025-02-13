@@ -1,17 +1,21 @@
-## My Project
+## Faithful, Unfaithful or Ambiguous? Multi-Agent Debate with Initial Stance for Summary Evaluation
 
-TODO: Fill this README out!
+Authors: Mahnaz Koupaee, Jake W. Vincent, Saab Mansour, Igor Shalyminov, Han He, Hwanjun Song, Raphael Shu, Jianfeng He, Yi Nian, Amy Wing-mei Wong, Kyu J. Han, Hang Su
 
-Be sure to:
+Please check our paper [here](https://arxiv.org/abs/2502.08514).
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Madisse
+Our debate approach for summary faithfulness evaluation consisting of a group of agnets with initial imposed beleifs of faithfulness which would engage in discussions to resolve any inconsistencies.
 
-## Security
+## Ambiguity annotation on MeetingBank
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+ `MeetingBank_ambiguity_annotated.json` contains the ambiguity annotations for MeetingBank summaries. The followings are descriptions of column names.
 
-## License
-
-This project is licensed under the Apache-2.0 License.
-
+ | Column Name | Description |
+ | -------- | ----- |
+ | doc | source document |
+ | summary | a generated summary sentence for the given document |
+ | ambiguity | `0` if the given summary is not ambiguous or `1` if the summary is ambiguous |
+ | category | if the summary is deemed ambiguous, then the selected high-level ambiguity category| 
+ | sub-category | if the summary is deemed ambiguous, the selected fine-grained ambiguity sub-category form the taxonomy|
+ | explanation | a short description of why there exists an ambiguity in the given summary |
