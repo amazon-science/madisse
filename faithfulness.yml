@@ -1,0 +1,4 @@
+name: bedrock
+channels:
+  - defaults
+prefix: /opt/anaconda3/envs/bedrock
